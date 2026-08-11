@@ -1,1 +1,0 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/guowang-review/sw.js', { scope: '/guowang-review/' })})}
